@@ -1,0 +1,6 @@
+logs
+vqmod_runtime
+vqcache
+checked.cache
+mods.cache
+!.gitignore
