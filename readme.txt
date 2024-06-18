@@ -7,6 +7,10 @@ https://vqmod.com
 大米cms改进型vQmod V2.6.9 基于vqmod2.6.8
 https://www.damicms.com
 
+主要用途:
+
+覆写php框架核心类，而又不影响composer更新
+
 (1)增加覆写文件内容替换:xml示例：
 
 <file name="vendor/topthink/framework/src/think/route/Url.php" info="解决tp6兼容nginx不支持pathinfo生成url的bug">
