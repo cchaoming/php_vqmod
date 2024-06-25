@@ -4,33 +4,32 @@ See website for additional information, install, usage, and syntax:
 https://vqmod.com
 ==========================================================
 
-´óÃ×cms¸Ä½øĞÍvQmod V2.6.9 »ùÓÚvqmod2.6.8
+å¤§ç±³cmsæ”¹è¿›å‹vQmod V2.6.9 åŸºäºvqmod2.6.8
 https://www.damicms.com
 
-Ö÷ÒªÓÃÍ¾:
+ä¸»è¦ç”¨é€”:
 
-¸²Ğ´php¿ò¼ÜºËĞÄÀà£¬¶øÓÖ²»Ó°Ïìcomposer¸üĞÂ
+è¦†å†™phpæ¡†æ¶æ ¸å¿ƒç±»ï¼Œè€Œåˆä¸å½±å“composeræ›´æ–°
 
-(1)Ôö¼Ó¸²Ğ´ÎÄ¼şÄÚÈİÌæ»»:xmlÊ¾Àı£º
+(1)å¢åŠ è¦†å†™æ–‡ä»¶å†…å®¹æ›¿æ¢:xmlç¤ºä¾‹ï¼š
 
-<file name="vendor/topthink/framework/src/think/route/Url.php" info="½â¾ötp6¼æÈİnginx²»Ö§³ÖpathinfoÉú³ÉurlµÄbug">
+<file name="vendor/topthink/framework/src/think/route/Url.php" info="è§£å†³tp6å…¼å®¹nginxä¸æ”¯æŒpathinfoç”Ÿæˆurlçš„bug">
         <operation>
             <overwrite>vqmod/overwrite/Url.php</overwrite>
 		</operation>
 </file>
-(2)vqmodÊÇ»ùÓÚĞĞËÑË÷Ìæ»»£¬¸Ä½øÔö¼ÓÕû¸öÎÄ¼şÄÚÈİËÑË÷Ìæ»» Ö§³ÖÕıÔò xmlÊ¾Àı£º
+(2)vqmodæ˜¯åŸºäºè¡Œæœç´¢æ›¿æ¢ï¼Œæ”¹è¿›å¢åŠ æ•´ä¸ªæ–‡ä»¶å†…å®¹æœç´¢æ›¿æ¢ æ”¯æŒæ­£åˆ™ xmlç¤ºä¾‹ï¼š
 
-<file name="vendor/topthink/framework/src/think/route/Url.php" info="½â¾ötp6¼æÈİnginx²»Ö§³ÖpathinfoÉú³ÉurlµÄbug">
+<file name="vendor/topthink/framework/src/think/route/Url.php" info="è§£å†³tp6å…¼å®¹nginxä¸æ”¯æŒpathinfoç”Ÿæˆurlçš„bug">
 	<operation>
-		<overwrite>vqmod/overwrite/Url.php</overwrite>
 		<search position="replace" regex="true" global_search="true"><![CDATA[/public\s+function\s+build\(\)\s*:\s*string(\W)+\{([\s\S]*)__toString/i]]></search>
-		<add><![CDATA[×ªÒåºóµÄÌæ»»×Ö·û´®]]></add>
+		<add><![CDATA[è½¬ä¹‰åçš„æ›¿æ¢å­—ç¬¦ä¸²]]></add>
 	</operation>
 </file>
 
-´óÃ×cms7.xÊ¹ÓÃvqmod·½·¨£º
-£¨1£©composer install»òupdate
-£¨2£©php ./vqmod/install/index.php
+å¤§ç±³cms7.xä½¿ç”¨vqmodæ–¹æ³•ï¼š
+ï¼ˆ1ï¼‰composer installæˆ–update
+ï¼ˆ2ï¼‰php ./vqmod/install/index.php
 
-×¢Òâ£ºvqmod/vqmod_runtime linux¿ÉÄÜĞèÒª¶ÁĞ´È¨ÏŞ
+æ³¨æ„ï¼švqmod/vqmod_runtime linuxå¯èƒ½éœ€è¦è¯»å†™æƒé™
 		
